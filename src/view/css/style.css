@@ -1,0 +1,63 @@
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    min-height: 100%;
+    padding: 1px 20px 1px 20px;
+}
+
+.email_text {
+    font-size: 24px;
+    font-style: italic;
+    color: #a5a5a5;
+}
+
+.text {
+    margin: 20px 0 15px 0;
+    font-size: 20px;
+    color: black;
+    max-height: 200px;
+    overflow: auto;
+    border: 1px #e0e0e0 solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin: 0 0 20px 0;
+
+}
+
+.img_status {
+    min-width: 50px;
+    max-height: 50px;
+    margin: 0 10px 0 0;
+}
+
+.first_content {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.edit_block{
+    width: 100%;
+}
+
+.edit_img {
+    max-width: 30px;
+    margin: 0 0 0 100%;
+}
+
+/*HEADER*/
+.header_block {
+    height: 70px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.logo {
+    max-width: 100px;
+}
